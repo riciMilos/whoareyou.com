@@ -13,13 +13,28 @@
     <div id="Container">
         <p id="Countdown"></p>
     </div>
-    <button type="button" value="Your Life" id="butt1" onclick=""></button>
-    <button type="button" value="Your Life" id="butt2" onclick=""></button>
-    <button type="button" value="Your Life" id="butt3" onclick=""></button>
-    <button type="button" value="Your Life" id="butt4" onclick=""></button>
+    <button type="button" value="Your Life" class="button" id="btn1" onclick="puzzle1()"></button>
+    <button type="button" value="Your Life" class="button" id="btn2" onclick="puzzle2()"></button>
+    <button type="button" value="Your Life" class="button" id="btn3" onclick="puzzle3()"></button>
+    <button type="button" value="Your Life" class="button" id="btn4" onclick="puzzle4()"></button>
+   
+    
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+      <div>
+        <div id="dialogboxhead"></div>
+        <div id="dialogboxbody"></div>
+        <div id="dialogboxfoot">
+            <span> <i>No going back, no regret! </i></span>
+            <button id="alertBtn" type="button" onclick="Alert.ok()"> I understand</button>
+        </div>
+      </div>
+    </div>
 
  
-    <i id="p1">Sometimes Being Random Is The Answer.</i>
+    <i id="p1">.rewSna eht sI modnAr Gnieb sEmiTemoS</i>
+
+    <p style="display: none;" id="theHidden">This is a hidden link </p>
 
     <script src="Script.js"></script>
 </body>
