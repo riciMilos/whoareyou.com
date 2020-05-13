@@ -55,7 +55,7 @@ console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-wei
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 
 
-var countDownDate = new Date("May 20, 2020 23:32:00").getTime();
+var countDownDate = new Date("May 29, 2020 00:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -82,7 +82,9 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("Countdown").innerHTML= "لا رجوع الآن";
+    document.getElementById("Countdown").innerHTML= "No way out";
+    document.getElementById("Countdown").style.animation="animate 6s linear infinite;";
+    document.getElementById("theHidden").style.display="block";
   }
 
 }, 1000);
