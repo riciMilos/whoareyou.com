@@ -46,8 +46,8 @@ body{
     border:none;
     outline:none;
     display:block;
-    height:30px;
-    width:30px;
+    height:25px;
+    width:25px;
     cursor: none;
 }
 
@@ -59,24 +59,22 @@ body{
     border:none;
     outline:none;
     display:block;
-    height:50px;
-    width:50px;
+    height:30px;
+    width:30px;
     cursor: help;
 }
-
 #btn4{
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    height: 50px;
-    width: 60px;
+    height: 25px;
+    width: 25px;
     cursor: alias;
     background:transparent;
     border:none;
     outline:none;
     display:block;
 }
-
 #dialogoverlay{
     display: none;
     opacity: .8;
@@ -104,8 +102,6 @@ body{
     text-align: right;  
     margin-left: 45%;
 }
-
-
 #theHidden{
     text-decoration: none;
     color: black;
@@ -117,8 +113,6 @@ body{
         text-align: center;
         display: none;
 }
-
-
 #Countdown{
     position: relative;
     font-family: sans-serif;
@@ -133,7 +127,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
-  
   @keyframes animate {
     0% {
       background-position: -500%;
@@ -142,6 +135,3 @@ body{
       background-position: 500%;
     }
   }
-
-
-
