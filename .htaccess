@@ -1,4 +1,0 @@
-AuthUserFile C:\Users\Ricar\Documents\THE PUZZLE/.htpasswd
-AuthType Basic
-AuthName “Ristricted access”
-Require valid-user
