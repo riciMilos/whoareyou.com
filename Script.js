@@ -21,7 +21,7 @@ function CustomAlert(){
 var Alert = new CustomAlert();
 
 
-Alert.render('Hi There, We Were Waiting For You.')
+Alert.render('Hi There, We have been waiting for you.')
 console.log ('%c IF you have to use the console then you are obviesly dumb!', 'color:blue;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
