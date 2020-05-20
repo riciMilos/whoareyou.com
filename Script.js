@@ -1,3 +1,5 @@
+/*You already read the HTML, at least leave Javascript alone!*/
+
 function CustomAlert(){
   this.render = function(dialog){
       var winW = window.innerWidth;
