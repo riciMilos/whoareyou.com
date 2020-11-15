@@ -1,5 +1,3 @@
-/*You already read the HTML, at least leave Javascript alone!*/
-
 function CustomAlert(){
   this.render = function(dialog){
       var winW = window.innerWidth;
@@ -11,46 +9,20 @@ function CustomAlert(){
       dialogbox.style.left = (winW/2) - (550 * .5)+"px";
       dialogbox.style.top = "200px";
       dialogbox.style.display = "block";
-      document.getElementById('dialogboxhead').innerHTML = "Nothing is ranom.";
+      document.getElementById('dialogboxhead').innerHTML = "Nothing is random.";
       document.getElementById('dialogboxbody').innerHTML = dialog; }
   this.ok = function(){
       document.getElementById('dialogbox').style.display = "none";
       document.getElementById('dialogoverlay').style.display = "none"; }
 }
 var Alert = new CustomAlert();
-Alert.render('We only want the best, not their followers.')
-console.log ('%c IF you have to use the console then you are obviesly dumb!', 'color:blue;')
+Alert.render('There is no going BACK from here.')
+
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-var countDownDate = new Date("May 28, 2020 00:00:00").getTime();
+var countDownDate = new Date("December 9, 2020 00:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -79,14 +51,14 @@ function init() {
 }
 window.onload = init;
 function puzzle1(){
-  Alert.render('01000100 ');
+  Alert.render('01000010');
 } 
 function puzzle2(){
-  Alert.render('01100101 ');
+  Alert.render('00110000');
 } 
 function puzzle3(){
-  Alert.render('01010101 ');
+  Alert.render('01000100');
 } 
 function puzzle4(){
-  Alert.render('01110011 ');
+  Alert.render('00110001');
 } 

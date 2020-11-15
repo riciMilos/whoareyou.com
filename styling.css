@@ -13,10 +13,14 @@ display: none;
   }
 
 
-body{
-    background-color: #e0e0e0;
+  html { 
+    background: url(yourLife.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     overflow: hidden;
-}
+  }
 
 
 #Container{
@@ -166,4 +170,11 @@ left: 70%;
 .socialMedia{
 padding-right: 90px;
 padding-top: 13%;
+display: inline;
+border: none;
+background: transparent;
+width: 100px;
+height: 100px;
+cursor: help;
 }
+
