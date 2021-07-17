@@ -22,7 +22,7 @@ console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-wei
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
 console.log ('%c Leave Console or regret!', 'color:red; font-size:30px; font-weight:bold;')
-var countDownDate = new Date("December 9, 2020 00:00:00").getTime();
+var countDownDate = new Date("December 9, 2021 00:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
